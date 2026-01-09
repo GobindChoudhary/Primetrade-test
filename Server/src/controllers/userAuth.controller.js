@@ -143,9 +143,16 @@ export const userLoginController = async (req, res) => {
 };
 
 export const userLogoutController = async (req, res) => {
-  res.clearCookie("token", COOKIE_OPTS);
-  res.status(200).json({
-    success: true,
-    message: "Logged out successfully",
-  });
+  try {
+    res.clearCookie("token", COOKIE_OPTS);
+    res.status(200).json({
+      success: true,
+      message: "Logged out successfully",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
 };
