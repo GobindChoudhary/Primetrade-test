@@ -5,7 +5,7 @@ This repository contains the solution for the Frontend Developer Intern assignme
 
 ### 🚀 Live Deployment
 - **Frontend**: [https://primetrade-todo.netlify.app](https://primetrade-todo.netlify.app)
-- **Backend API**: [https://primetrade-ai-server.onrender.com/api](https://primetrade-ai-server.onrender.com)
+- **Backend API**: [https://primetrade-ai-server.onrender.com](https://primetrade-ai-server.onrender.com)
 
 ---
 
